@@ -2,7 +2,7 @@
   "locked": false,
   "version": 2,
   "targets": {
-    ".NETCoreApp,Version=v1.0": {
+    ".NETCoreApp,Version=v1.1": {
       "dotnet-test-xunit/2.2.0-preview2-build1029": {
         "type": "package",
         "dependencies": {
@@ -3681,7 +3681,7 @@
       },
       "TestCommonApplication/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v1.0",
+        "framework": ".NETCoreApp,Version=v1.1",
         "dependencies": {
           "Microsoft.AspNetCore.Mvc": "1.0.1",
           "Microsoft.AspNetCore.Routing": "1.0.1",
@@ -3697,10 +3697,10 @@
           "Microsoft.NETCore.App": "1.0.1"
         },
         "compile": {
-          "netcoreapp1.0/TestCommonApplication.dll": {}
+          "netcoreapp1.1/TestCommonApplication.dll": {}
         },
         "runtime": {
-          "netcoreapp1.0/TestCommonApplication.dll": {}
+          "netcoreapp1.1/TestCommonApplication.dll": {}
         }
       }
     }
@@ -9764,7 +9764,7 @@
       "dotnet-test-xunit >= 2.2.0-preview2-build1029",
       "xunit >= 2.2.0"
     ],
-    ".NETCoreApp,Version=v1.0": []
+    ".NETCoreApp,Version=v1.1": []
   },
   "tools": {},
   "projectFileToolGroups": {}
