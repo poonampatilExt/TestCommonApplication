@@ -1,0 +1,5 @@
+*.IncrementalCache
+*.SDKVersion
+*.rsp
+*.assemblyinfo.cs
+*.deps.json
