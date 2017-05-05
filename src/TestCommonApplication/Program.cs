@@ -13,8 +13,9 @@ namespace TestCommonApplication
         public static void Main(string[] args)
         {
             var host = new WebHostBuilder()
-                .UseKestrel()
                 .UseUrls("http://localhost:5000")
+                .UseKestrel()
+                .UseSetting("detailedErrors", "true")
                 .UseContentRoot(Directory.GetCurrentDirectory())
                 .UseIISIntegration()
                 .UseStartup<Startup>()
